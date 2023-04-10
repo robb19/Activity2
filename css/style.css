@@ -22,4 +22,46 @@
     font-size: 20px;
     text-shadow: 1px 1px 1px black;
 }
-
+#blog{
+    margin-top: 80px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+img{
+    height: 150px;
+    width: 250px;
+    align-items: center;
+}
+#blog div{
+    border: 1px solid lightgray;
+    width: 250px;
+    height: 320px;
+    border-image-width: auto;
+    display: inline-block;
+    padding: 0px;
+    margin-top: 15px;
+    justify-content: space-between;
+    box-shadow: 1px 1px 1px lightgray;
+    border-radius: 10px;
+}
+div h3{
+    margin-right: 115px;
+}
+div p{
+    text-align: justify;
+    padding: 8px;
+    font-size: 12px;
+}
+div a{
+    margin-right: 135px;
+    color: gray;
+    text-decoration: none;
+}
+div:nth-child(4){
+    background-color: rgb(31, 30, 30);
+    color: white;
+}
+div:nth-child(4) a:hover{
+    color: green;
+}
